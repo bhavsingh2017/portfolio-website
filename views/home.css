@@ -1,5 +1,59 @@
-#myButton{
-	width: 500px;
-	height: 30px;
-	color: coral;
+body{
+    background-color: rgb(242,247,249);
 }
+
+nav{
+    float: right;
+    margin-right: 30px;
+}
+
+p{
+    color: black;
+    font-size: 18px;
+}
+#tech{
+    float: left;
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+}
+#smalltech{
+    float: left;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+#self{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    float: right;
+
+}
+
+h1{
+    color: black;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 60px;
+    margin-left: 5%;
+}
+
+h3{
+    margin-top: 20px;
+    color: black;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 30px;
+    float: left;
+}
+
+div{
+    color: yellow;
+}
+
+#myButton{
+    width: 200px;
+    height: 20px;
+    color: yellow;
+}
+
