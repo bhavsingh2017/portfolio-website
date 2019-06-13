@@ -1,0 +1,12 @@
+extends default
+block head
+    link(rel="stylesheet",href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js")
+block styles
+    style
+        include standard.css
+block content
+    form(method="POST" action="/submit-form")
+        input(type="text" name="message")
+        input(type="submit")

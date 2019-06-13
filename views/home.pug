@@ -6,14 +6,21 @@ block head
     script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js")
 block styles
     style
-        include home.css
+        include standard.css
 block content
+    nav(class="navbar navbar-expand-lg navbar-light bg-light")
+                    div(class="collapse navbar-collapse" id="navbarSupportedContent")
+                          ul.nav.navbar-nav
+                            li.active: a(href="aboutme.pug") About Me
+                            li: a(href="techspec.pug") Github/Projects
+                            li: a(href="https://www.linkedin.com/in/bhav-singh/") LinkedIn
+                            li: a(href="contact") Contact
 
     div(class="container")
         div(class="row")
         div(class="row justify-content-md-center")
             div(class="col-xs-4")
-                p I'm an aspiring Software Developer who goes to USC(so fight on!) and majors in Computer Science. I'm from NY and originally from Punjab, India, and although I'm goofy I'm not actually a cartoon like this picture...In my free time I code, perform calisthenics, and travel! This website is actually my first Node.js website and was made using Node.js, Bootstrap, CSS, HTML5, and  Pug!
+                p Hello!
             div(class="col-auto")
                 img#self(src="self.jpg" alt="")
 

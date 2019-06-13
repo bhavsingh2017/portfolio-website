@@ -11,6 +11,20 @@ p{
     color: black;
     font-size: 18px;
 }
+
+a{
+    color: black; 
+    font-size: 18px;
+}
+
+.col-xs-4{
+    background-color: yellow;
+}
+
+.col-auto{
+    background-color: blue;
+}
+
 #tech{
     float: left;
     margin-left: 20px;

@@ -19,6 +19,7 @@
   "homepage": "https://github.com/bhavsingh2017/portfolio-website#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "xmlhttprequest": "^1.8.0"
   }
 }
